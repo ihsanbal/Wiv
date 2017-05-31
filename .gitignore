@@ -1,0 +1,18 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/captures
+.externalNativeBuild
+
+!gradle-wrapper.jar
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+build/
+
+# Local configuration file (sdk path, etc)
+/.idea/

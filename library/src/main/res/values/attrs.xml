@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AspectRatioLayout">
+        <attr name="aspect_ratio" format="float" />
+        <attr name="dimension_to_adjust" format="enum">
+            <enum name="height" value="0" />
+            <enum name="width" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MediaView">
+        <attr name="divider_size" format="dimension" />
+        <attr name="place_holder" format="integer" />
+        <attr name="corner_radii" format="dimension" />
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+</resources>

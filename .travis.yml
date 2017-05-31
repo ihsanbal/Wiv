@@ -1,0 +1,30 @@
+language: android
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-25.0.2
+    - android-25
+    - extra-android-m2repository
+
+licenses:
+  - 'android-sdk-license.*'
+
+jdk:
+  - oraclejdk8
+
+notifications:
+  email: true
+
+sudo: false
+
+script:
+- chmod +x gradlew
+- ./gradlew :library:assembleDebug
+- ./gradlew :library:check
+
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.gradle
