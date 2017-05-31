@@ -1,0 +1,19 @@
+machine:
+    environment:
+        ANDROID_HOME: /usr/local/android-sdk-linux
+    java:
+        version: oraclejdk8
+
+dependencies:
+  override:
+    - ./gradlew dependencies --daemon
+
+test:
+  override:
+    - ./gradlew test
+
+deployment:
+   testing:
+      branch: [development, master]
+      commands:
+       - ./gradlew assembleRelease
