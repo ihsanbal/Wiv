@@ -1,7 +1,7 @@
 Wiv
 --------
 
-[![Build Status](https://travis-ci.org/ihsanbal/Wiv.svg?branch=master)](https://travis-ci.org/ihsanbal/Wiv)
+[![CircleCI](https://circleci.com/gh/ihsanbal/Wiv/tree/master.svg?style=svg)](https://circleci.com/gh/ihsanbal/Wiv/tree/master)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat-square)](http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html)
 
 Library of [Tweet-ui](https://docs.fabric.io/android/twitter/tweet-ui.html) TweetMediaView component.
