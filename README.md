@@ -2,7 +2,7 @@ Wiv
 --------
 
 [![CircleCI](https://circleci.com/gh/ihsanbal/Wiv/tree/master.svg?style=svg)](https://circleci.com/gh/ihsanbal/Wiv/tree/master)
-[![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat-square)](http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1880261.html)
+![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=square)
 
 Library of [Tweet-ui](https://docs.fabric.io/android/twitter/tweet-ui.html) TweetMediaView component.
 
@@ -73,8 +73,17 @@ Maven:
 </repository>
 
 <dependency>
-	    <groupId>com.github.ihsanbal</groupId>
-	    <artifactId>Wiv</artifactId>
-	    <version>1.0.0</version>
+   <groupId>com.github.ihsanbal</groupId>
+   <artifactId>Wiv</artifactId>
+   <version>1.0.0</version>
 </dependency>
 ```
+
+Screenshots
+--------
+
+<p align="center">
+    <img src="https://github.com/ihsanbal/Wiv/blob/master/resources/device-2017-05-31-144323.png" width="280" height="500"/>
+    <img src="https://github.com/ihsanbal/Wiv/blob/master/resources/device-2017-05-31-144237.png" width="280" height="500"/>
+    <img src="https://github.com/ihsanbal/Wiv/blob/master/resources/device-2017-05-31-144107.png" width="280" height="500"/>
+</p>
